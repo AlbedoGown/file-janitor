@@ -1,6 +1,10 @@
 ≈Usage: file-janitor [option] [file_path]
 
-    options:
-        help        displays this help file
-
-
+COMMANDS:
+  help            Show this help message.
+  list [PATH]     List files in the specified directory (or current if PATH is omitted).
+  report [PATH]   Generate a report on .tmp, .log, and .py files in the specified directory (or current).
+  clean [PATH]    Perform cleanup in the specified directory (or current).
+                  - Deletes .log files older than 3 days.
+                  - Deletes all .tmp files.
+                  - Moves all .py files to a 'python_scripts' subdirectory.
