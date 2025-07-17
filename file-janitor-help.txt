@@ -1,0 +1,6 @@
+≈Usage: file-janitor [option] [file_path]
+
+    options:
+        help        displays this help file
+
+
