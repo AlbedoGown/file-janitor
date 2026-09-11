@@ -1,4 +1,4 @@
-≈Usage: file-janitor [option] [file_path]
+Usage: file-janitor [option] [file_path]
 
 COMMANDS:
   help            Show this help message.

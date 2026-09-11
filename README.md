@@ -23,7 +23,7 @@ This script is ideal for developers, system administrators, or any user looking 
 
 1.  **Clone the repository (or download the files):**
     ```bash
-    git clone [https://github.com/AlbedoGown/file-janitor.git](https://github.com/AlbedoGown/file-janitor.git)
+    git clone https://github.com/AlbedoGown/file-janitor.git
     cd file-janitor
     ```
 
@@ -53,3 +53,4 @@ Run the script from your command line, specifying the desired command and an opt
 
 ```bash
 ./file-janitor.sh [COMMAND] [PATH]
+```
